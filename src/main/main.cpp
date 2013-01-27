@@ -28,18 +28,12 @@ using namespace std;
 #include "Kdb3Database.h"
 #include "IIconTheme.h"
 
-//#include "export/Export_KeePassX_Xml.h"
-
 #include "merge_db.h"
 
 KpxConfig *config;
 QString  AppDir;
 QString HomeDir;
 QString DataDir;
-//QString PluginLoadError;
-//QString DetailViewTemplate;
-//bool EventOccurred;
-//bool EventOccurredBlock = false;
 
 QPixmap* EntryIcons;
 IIconTheme* IconLoader=NULL;

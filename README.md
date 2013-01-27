@@ -2,7 +2,7 @@
 A command line tool for merging KeePassX 1.X databases
 
 # USAGE:
-./build/kdbtool merge FILE1.kdb FILE2.kdb OUTFILE.kdb
+./kdbtool merge FILE1.kdb FILE2.kdb OUTFILE.kdb
 
 Will prompt for password (assumes password is same for both files)
 
